@@ -1,0 +1,28 @@
+[debug] [2017-10-27T00:00:20.475Z] ----------------------------------------------------------------------
+[debug] [2017-10-27T00:00:20.477Z] Command:       /Users/erinhochstatter/.nvm/versions/node/v8.7.0/bin/node /Users/erinhochstatter/.nvm/versions/node/v8.7.0/bin/firebase serve
+[debug] [2017-10-27T00:00:20.478Z] CLI Version:   3.13.1
+[debug] [2017-10-27T00:00:20.478Z] Platform:      darwin
+[debug] [2017-10-27T00:00:20.478Z] Node Version:  v8.7.0
+[debug] [2017-10-27T00:00:20.478Z] Time:          Thu Oct 26 2017 19:00:20 GMT-0500 (CDT)
+[debug] [2017-10-27T00:00:20.478Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-27T00:00:20.497Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-27T00:00:20.498Z] > authorizing via signed-in user
+[debug] [2017-10-27T00:00:20.500Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/reserv-c0a85  
+ Thu Oct 26 2017 19:00:20 GMT-0500 (CDT)
+[debug] [2017-10-27T00:00:20.840Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-27T00:00:20.842Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/reserv-c0a85/tokens  
+ Thu Oct 26 2017 19:00:20 GMT-0500 (CDT)
+[debug] [2017-10-27T00:00:24.923Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/erinhochstatter/dev/sideprojects/mentoring/jane/serious-reservations'...
+[info] 
+[debug] [2017-10-27T00:00:24.927Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/reserv-c0a85  
+ Thu Oct 26 2017 19:00:24 GMT-0500 (CDT)
+[debug] [2017-10-27T00:00:25.275Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-27T00:00:25.275Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/472264200270/clients/_:getWebAppConfig  
+ Thu Oct 26 2017 19:00:25 GMT-0500 (CDT)
+[debug] [2017-10-27T00:00:25.529Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./dist
+[info] ✔  hosting: Local server: http://localhost:5000
+
